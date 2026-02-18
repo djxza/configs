@@ -6,12 +6,14 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # add i386 elf ive built
 export PATH="$HOME/opt/cross/bin:$PATH"
+export PATH="$HOME/dev/ess:$PATH"
+
+alias cooki=$HOME/dev/cooki/bin/cooki
 
 # ALIASES
 alias vim=nvim
 alias cls=clear
 alias ll="ls -la"
-
 
 # git
 alias gaa="git add -a"
